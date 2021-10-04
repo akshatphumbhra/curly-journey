@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AITTimeDemo</string>
+    <string name="button_show">Show Time</string>
+    <string name="error_large_number">This field is too large</string>
+</resources>

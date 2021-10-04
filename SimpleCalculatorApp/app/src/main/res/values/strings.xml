@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimpleCalculatorApp</string>
+    <string name="text_result">Result: %1$d</string>
+    <string name="empty_field_error">This field can not be empty</string>
+    <string name="hint_text">Enter number here</string>
+    <string name="plus">Plus</string>
+    <string name="minus">Minus</string>
+    <string name="_0">0</string>
+</resources>
