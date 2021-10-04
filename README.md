@@ -1,1 +1,1 @@
-# curly-journey
+# Learning Android Development
