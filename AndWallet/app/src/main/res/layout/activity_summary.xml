@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/summary_bg"
+    tools:context=".SummaryActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/income"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#00FF00"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/incomeSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initial_balance"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expense"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/expenseSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initial_balance"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_balance"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/initial_balance"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+</LinearLayout>

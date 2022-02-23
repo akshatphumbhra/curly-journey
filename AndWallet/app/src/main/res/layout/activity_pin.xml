@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".PinActivity"
+    android:background="@drawable/white_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_your_wallet"
+        android:textColor="#e65e24"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:paddingTop="20dp"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pin_code"
+        android:textColorHint="@color/black"
+        android:imeActionId="6"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:imeActionLabel="@string/sign_in"
+        android:imeOptions="actionUnspecified"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"/>
+
+</LinearLayout>

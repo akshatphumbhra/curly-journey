@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AndWallet</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="amount">Amount</string>
+    <string name="item">Item</string>
+    <string name="currency">$</string>
+    <string name="empty_val">Cannot be empty</string>
+    <string name="invalid_pin">Must be a valid pin!</string>
+    <string name="incorrect_pin">The pin is incorrect!</string>
+    <string name="pin_code">Enter Pin Code Here</string>
+    <string name="sign_in">Sign in</string>
+    <string name="login">Login</string>
+    <string name="summary">Summary</string>
+    <string name="initial_balance">$0</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="welcome_to_your_wallet">Welcome To Your Wallet!</string>
+    <string name="minus">-</string>
+</resources>

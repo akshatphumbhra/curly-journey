@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvMines"
+            android:layout_width="125sp"
+            android:layout_height="75sp"
+            android:layout_margin="10sp"
+            android:text="00"
+            android:layout_gravity="right"
+            android:textColor="#FF0000"
+            android:textSize="40sp" />
+
+        <ImageButton
+            android:id="@+id/btnReset"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/smile" />
+
+        <Chronometer
+            android:id="@+id/timeTaken"
+            android:layout_width="150sp"
+            android:layout_height="75sp"
+            android:layout_margin="10sp"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+    <hu.ait.minesweeper.view.MinesweeperView
+        android:id="@+id/minesweeperView"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center" />
+
+    <ToggleButton
+        android:id="@+id/toggleFlagMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/mine"
+        android:checked="false"
+        android:textOn="@string/flag" />
+
+</LinearLayout>

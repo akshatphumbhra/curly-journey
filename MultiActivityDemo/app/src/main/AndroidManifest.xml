@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MultiActivityDemo">
         <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
             android:name=".DetailsActivity"
             android:exported="true" />
         <activity
